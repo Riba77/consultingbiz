@@ -1,0 +1,448 @@
+/* Dark Theme Override - Changes all backgrounds to black and text to white */
+
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* All text colors */
+p, span, li, div, a, button, label, h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Dark backgrounds */
+.white-bg, .brand-bg, .testimonial-bg, .gray-bg {
+  background-color: #000000 !important;
+}
+
+.black-bg {
+  background-color: #000000 !important;
+}
+
+/* Specific color overrides */
+.black-color {
+  color: #ffffff !important;
+}
+
+.white-color {
+  color: #ffffff !important;
+}
+
+/* Header and navigation */
+.header-area {
+  background-color: #000000 !important;
+}
+
+.header-area .header-top {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.main-header .main-menu ul li a {
+  color: #ffffff !important;
+}
+
+.main-header .main-menu ul ul.submenu {
+  background-color: #1a1a1a !important;
+}
+
+.main-header .main-menu ul ul.submenu>li>a {
+  color: #ffffff !important;
+}
+
+/* Services and content sections */
+.services-area .single-services {
+  background-color: #000000 !important;
+  border: 1px solid #333333 !important;
+}
+
+.services-area .single-services:hover {
+  background-color: #1a1a1a !important;
+}
+
+.services-area .single-services .services-caption h4 {
+  color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+.services-area .single-services .services-caption h4::before {
+  background-color: #c6a16e !important;
+}
+
+.services-area .single-services .services-caption p {
+  color: #ffffff !important;
+}
+
+.services-area .single-services .services-icon img {
+  filter: brightness(1.2) !important;
+}
+
+/* Safe Industry Area */
+.safe-industery-area .safe-caption h2 {
+  color: #ffffff !important;
+}
+
+.safe-industery-area .safe-caption .safe-pera-one,
+.safe-industery-area .safe-caption .safe-pera-two,
+.safe-industery-area .safe-caption .safe-pera-three {
+  color: #ffffff !important;
+}
+
+/* Team Section */
+.team-info h2 {
+  color: #ffffff !important;
+}
+
+.team-info p {
+  color: #ffffff !important;
+}
+
+/* David Droga Area */
+.david-droga-area .single-david .david-captoin h2 a {
+  color: #ffffff !important;
+}
+
+.david-droga-area .single-david .david-captoin a {
+  color: #ffffff !important;
+}
+
+/* Blog Area */
+.blog-area .single-blog .blog-caption .blog-cap-mid p a {
+  color: #ffffff !important;
+}
+
+.single-blog h4 {
+  color: #ffffff !important;
+  border-bottom-color: #333333 !important;
+}
+
+.single-blog .date {
+  color: #ffffff !important;
+}
+
+.single-blog .tag {
+  color: #ffffff !important;
+}
+
+/* Footer Area */
+.footer-area {
+  background-color: #000000 !important;
+}
+
+.footer-area .footer-tittle h4 {
+  color: #ffffff !important;
+}
+
+.footer-area .footer-tittle ul li {
+  color: #ffffff !important;
+}
+
+.footer-area .footer-tittle ul li a {
+  color: #ffffff !important;
+}
+
+.footer-area .footer-pera p {
+  color: #ffffff !important;
+}
+
+.footer-bg {
+  background-color: #000000 !important;
+}
+
+.footer-bottom-area .footer-copy-right p {
+  color: #ffffff !important;
+}
+
+/* Forms and inputs */
+.form-control, .single-input, .single-textarea {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border-color: #333333 !important;
+}
+
+.form-control::placeholder {
+  color: #999999 !important;
+}
+
+/* Links */
+a {
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #c6a16e !important;
+}
+
+/* Preloader */
+.preloader {
+  background-color: #000000 !important;
+}
+
+/* Breadcrumb */
+.bradcam_area {
+  background-color: #000000 !important;
+}
+
+.bradcam_area h3 {
+  color: #ffffff !important;
+}
+
+/* Contact Section */
+.contact-info .media-body h3 {
+  color: #ffffff !important;
+}
+
+.contact-info .media-body p {
+  color: #ffffff !important;
+}
+
+.contact-title {
+  color: #ffffff !important;
+}
+
+/* Testimonials */
+.testimonial-area .testimonial-caption .testimonial-top-cap p {
+  color: #ffffff !important;
+}
+
+/* Blog sections */
+.blog_right_sidebar .widget_title {
+  color: #ffffff !important;
+  border-bottom-color: #333333 !important;
+}
+
+.blog_right_sidebar .single_sidebar_widget {
+  background-color: #1a1a1a !important;
+}
+
+.blog_right_sidebar .post_category_widget .cat-list li a {
+  color: #ffffff !important;
+}
+
+.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
+  color: #ffffff !important;
+}
+
+/* Comments */
+.comments-area {
+  border-top-color: #333333 !important;
+  background-color: #000000 !important;
+}
+
+.comments-area h4 {
+  color: #ffffff !important;
+}
+
+.single-blog h4 {
+  border-bottom-color: #333333 !important;
+}
+
+/* Tables */
+.progress-table {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
+  color: #ffffff !important;
+}
+
+.progress-table .table-row {
+  border-top-color: #333333 !important;
+}
+
+/* Typography */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+  color: #ffffff !important;
+}
+
+/* Buttons */
+.btn, .boxed-btn {
+  color: #ffffff !important;
+}
+
+/* Post navigation */
+.single-post-area .navigation-area {
+  border-bottom-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+.single-post-area .navigation-area h4 {
+  color: #ffffff !important;
+}
+
+/* Blog author */
+.single-post-area .blog-author {
+  background-color: #1a1a1a !important;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  background-color: #1a1a1a !important;
+}
+
+.dropdown-menu a {
+  color: #ffffff !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #c6a16e !important;
+}
+
+/* Sticky bar */
+.sticky-bar {
+  background-color: #000000 !important;
+}
+
+/* Category and other elements */
+.categories_post .categories_details {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Sample text area */
+.sample-text-area {
+  background-color: #000000 !important;
+}
+
+.text-heading {
+  color: #ffffff !important;
+}
+
+/* Button area */
+.button-area {
+  background-color: #000000 !important;
+}
+
+/* Blockquote */
+.generic-blockquote {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border-left-color: #c6a16e !important;
+}
+
+/* Ordered and unordered lists */
+.ordered-list li {
+  color: #ffffff !important;
+}
+
+.ordered-list li span {
+  color: #ffffff !important;
+}
+
+.unordered-list li:before {
+  border-color: #ffffff !important;
+}
+/* Service Categories - Remove red colors and use black theme */
+.categories-area .single-cat {
+  background-color: #000000 !important;
+  border: 9px solid #333333 !important;
+}
+
+.categories-area .single-cat::before {
+  background-color: #1a1a1a !important;
+  border-color: #333333 !important;
+}
+
+.categories-area .single-cat .cat-icon span {
+  color: #ffffff !important;
+}
+
+.categories-area .single-cat .cat-cap h5 > a {
+  color: #ffffff !important;
+}
+
+.categories-area .single-cat .cat-cap p {
+  color: #cccccc !important;
+}
+
+.categories-area .single-cat .cat-cap a {
+  color: #c6a16e !important;
+}
+
+.categories-area .single-cat:hover {
+  border: 1px solid #c6a16e !important;
+  background-color: #0a0a0a !important;
+}
+
+.categories-area .single-cat:hover::before {
+  background-color: #1a1a1a !important;
+}
+
+.categories-area .single-cat:hover .cat-icon span {
+  color: #c6a16e !important;
+}
+
+.categories-area .single-cat:hover .cat-cap h5 {
+  color: #c6a16e !important;
+}
+
+.categories-area .single-cat:hover .cat-cap p {
+  color: #ffffff !important;
+}
+
+.categories-area .single-cat:hover .cat-cap a {
+  color: #c6a16e !important;
+}
+
+/* Section Titles - Black background */
+.section-tittle {
+  background-color: #000000 !important;
+  padding: 30px !important;
+  border-radius: 5px !important;
+}
+
+.section-tittle span {
+  color: #c6a16e !important;
+}
+
+.section-tittle span::before {
+  background-color: #c6a16e !important;
+}
+
+.section-tittle h2 {
+  color: #ffffff !important;
+}
+
+.section-tittle2 {
+  background-color: #000000 !important;
+  padding: 30px !important;
+  border-radius: 5px !important;
+}
+
+.section-tittle2 span {
+  color: #c6a16e !important;
+}
+
+.section-tittle2 span::before {
+  background-color: #ffffff !important;
+}
+
+.section-tittle2 h2 {
+  color: #ffffff !important;
+}
+
+.section-tittle3 {
+  background-color: #000000 !important;
+  padding: 30px !important;
+  border-radius: 5px !important;
+}
+
+.section-tittle3 span {
+  color: #c6a16e !important;
+}
+
+.section-tittle3 h2 {
+  color: #ffffff !important;
+}
+
+.categories-area .single-cat:hover .cat-cap a {
+  color: #c6a16e !important;
+}

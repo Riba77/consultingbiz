@@ -203,6 +203,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* line 9, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -213,7 +215,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  color: #092c3f;
+  color: #ffffff;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -223,7 +225,7 @@ h6 {
 /* line 23, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 p {
   font-family: "Poppins", sans-serif;
-  color: #10285d;
+  color: #ffffff;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
